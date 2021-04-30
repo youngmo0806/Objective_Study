@@ -75,7 +75,6 @@ enum color {
 
 int main(int argc, const char * argv[]) {
 
-    
     NSString *test = @"youngmo"; //문자열을 변경할수 없다.
     NSString *testt = [test stringByAppendingFormat:@" -> %d year's old", 41];
     
